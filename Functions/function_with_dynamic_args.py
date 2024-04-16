@@ -1,0 +1,16 @@
+def main ():
+    
+    
+    def sum_all (*args):
+        return sum (args)
+        
+    
+    print (sum_all (1, 2))
+    print (sum_all (1, 2, 3))
+    print (sum_all (1, 2, 3, 4))
+    print (sum_all (1, 2, 3, 4, 5))
+
+
+
+if __name__ == "__main__":
+    main ()
